@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_biru.xml",
+        "source": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\src\\main\\res\\drawable-hdpi\\btn_biru.xml"
+    },
+    {
+        "merged": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_biru.xml",
+        "source": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\src\\main\\res\\drawable-hdpi\\btn_biru.xml"
+    },
+    {
+        "merged": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_merah.xml",
+        "source": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\src\\main\\res\\drawable-hdpi\\btn_merah.xml"
+    },
+    {
+        "merged": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_merah.xml",
+        "source": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\src\\main\\res\\drawable-hdpi\\btn_merah.xml"
+    },
+    {
+        "merged": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_hijau.xml",
+        "source": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\src\\main\\res\\drawable-hdpi\\btn_hijau.xml"
+    },
+    {
+        "merged": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_hijau.xml",
+        "source": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\src\\main\\res\\drawable-hdpi\\btn_hijau.xml"
+    },
+    {
+        "merged": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\DedyAM\\App-Android\\SiAKa AkPar Makassar\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\PROJECT\\Aplikasi - Android Studio\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

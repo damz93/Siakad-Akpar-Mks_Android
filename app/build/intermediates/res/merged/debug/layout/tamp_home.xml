@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bground"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="5"
+    android:scrollbars="vertical" >
+
+         <RelativeLayout
+             android:layout_width="fill_parent"
+             android:layout_height="416dp"
+             android:columnCount="1"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/btn_mtkul"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/btn_mhs"
+        android:layout_below="@+id/btn_mhs"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/matakuliah"
+        android:text="Mata Kuliah"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_mhs"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/btn_info"
+        android:background="@drawable/mhs"
+        android:text="Biodata Diri Mahasiswa"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_tskp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/btn_mtkul"
+        android:layout_below="@+id/btn_mtkul"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/transkrip"
+        android:text="Transkrip"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+
+	<Button
+    	android:id="@+id/btn_krs"
+    	android:layout_width="110dp"
+    	android:layout_height="110dp"
+	    android:layout_alignLeft="@+id/btn_khs"
+	    android:layout_below="@+id/btn_khs"
+	    android:layout_marginTop="25dp"
+	    android:background="@drawable/jadwal"
+	    android:text="KRS/Kelas"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+	<Button
+    	android:id="@+id/btn_klr"
+    	android:layout_width="110dp"
+    	android:layout_height="110dp"
+	    android:layout_alignLeft="@+id/btn_tskp"
+	    android:layout_below="@+id/btn_tskp"
+	    android:layout_marginTop="25dp"
+	    android:background="@drawable/exit"
+	    android:text="Keluar"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+
+	<Button
+	    android:id="@+id/btn_dosn"
+	    android:layout_width="110dp"
+	    android:layout_height="110dp"
+    	android:layout_above="@+id/btn_tskp"
+    	android:layout_marginTop="25dp"
+    	android:layout_toLeftOf="@+id/btn_mhs"
+    	android:background="@drawable/dosen"
+    	android:text="Daftar Dosen"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+
+	<Button
+	    android:id="@+id/btn_khs"
+	    android:layout_width="110dp"
+	    android:layout_height="110dp"
+	    android:layout_alignTop="@+id/btn_tskp"
+	    android:layout_toLeftOf="@+id/btn_mhs"
+	    android:background="@drawable/krs"
+    	android:text="Kartu Hasil Studi"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="30px"
+    	android:textStyle="bold" />
+
+	<Button
+	    android:id="@+id/btn_info"
+	    android:layout_width="110dp"
+	    android:layout_height="110dp"
+	    android:layout_alignBaseline="@+id/btn_mhs"
+	    android:layout_alignBottom="@+id/btn_mhs"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/info"
+	    android:text="Informasi Kampus"
+    	android:textColor="#09456e"
+		android:textColorHint="#111111"
+    	android:textSize="28px"
+    	android:textStyle="bold" />
+
+</RelativeLayout>
+
+</ScrollView>
+
+
+
+ <Button
+     android:id="@+id/btn_lgut"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="35dp"
+     android:background="@drawable/btn_hijau"
+     android:gravity="center_vertical"
+     android:text="Logut"
+     android:textColor="#FFFFFF"
+     android:textSize="40px" />
+
+ <TextView
+     android:id="@+id/txt_slmat"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_below="@+id/btn_lgin"
+     android:layout_centerHorizontal="true"
+     android:layout_marginBottom="14dp"
+     android:text="User aktif : [Nama],[Nim]"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:textColor="#FFFFFF"
+     android:textSize="16dp" />
+
+</LinearLayout>

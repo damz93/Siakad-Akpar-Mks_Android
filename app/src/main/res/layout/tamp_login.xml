@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bground"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="5"
+    android:scrollbars="vertical" >
+
+         <RelativeLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:columnCount="1"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingTop="@dimen/activity_vertical_margin" >
+	
+    			<ImageView
+        			android:id="@+id/imageView1"
+        			android:layout_width="100dp"
+        			android:layout_height="100dp"
+        			android:layout_alignParentTop="true"
+        			android:layout_centerHorizontal="true"
+        			android:layout_marginTop="17dp"
+        			android:src="@drawable/padlock19" />
+	
+    			<EditText
+        			android:id="@+id/edt_nim"
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_below="@+id/imageView1"
+        			android:layout_centerHorizontal="true"
+        			android:layout_marginTop="32dp"
+        			android:textSize="40px"
+        			android:ems="10"
+        			android:hint="NIM"
+        			android:inputType="text|textNoSuggestions"
+        			android:textColor="#FFFFFF" />
+					<requestFocus />
+
+						<EditText
+        			android:id="@+id/edt_pass"
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentLeft="true"
+        			android:layout_below="@+id/edt_nim"
+        			android:ems="10"
+        			android:hint="@string/password"
+        			android:inputType="textPassword"
+        			android:textColor="#FFFFFF"
+        			android:textSize="40px" />
+
+						
+
+						</RelativeLayout>
+						</ScrollView>
+				<TextView
+					android:id="@+id/txt_alert"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignLeft="@+id/edt_pass"
+					android:textColor="#EEEEDD"
+					android:visibility="gone"
+					android:layout_alignParentBottom="true"
+					android:text="TextView" />
+    			<Button
+    			    android:id="@+id/btn_login"
+    			    android:layout_width="fill_parent"
+    			    android:layout_height="wrap_content"
+    			    android:layout_above="@+id/btn_clear"
+    			    android:layout_alignParentLeft="true"
+    			    android:background="@drawable/btn_hijau"
+    			    android:text="Login"
+    			    android:textStyle="bold"
+    			    android:textColor="#FFFFFF"
+    			    android:textSize="30px" />
+
+			    <Button
+			        android:id="@+id/btn_clear"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_alignParentLeft="true"
+			        android:background="@drawable/btn_merah"
+			        android:text="Batal"
+			        android:textStyle="bold"
+			        android:textColor="#FFFFFF"
+			        android:textSize="30px" />
+
+    	
+		
+</LinearLayout>

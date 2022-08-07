@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siaka_akpar_makassar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+	<uses-permission 
+	    android:name="android.permission.INTERNET"/>	
+    <application
+        android:allowBackup="true"
+        
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.example.siaka_akpar_makassar.Act_utama"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_login"
+            android:screenOrientation="portrait"
+        	android:label="Form Login"/>
+        <activity android:name="com.example.siaka_akpar_makassar.JSONParser"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_home2"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Daftar Dosen"
+            android:name="com.example.siaka_akpar_makassar.Act_dosen"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Daftar Mata Kuliah"
+            android:name="com.example.siaka_akpar_makassar.Act_matkul"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Kelas"
+            android:name="com.example.siaka_akpar_makassar.Act_kelas"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Transkrip"
+            android:name="com.example.siaka_akpar_makassar.Act_transkrip"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Tes Detail"
+            android:name="com.example.siaka_akpar_makassar.Tes_det_kls"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Detail Kelas"
+            android:name="com.example.siaka_akpar_makassar.Act_detail_kelas"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_informasi"
+            android:label="Informasi Kampus"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_khs"
+            android:label="KHS Mahasiswa"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_detail_khs"
+            android:label="KHS Mahasiswa"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_mhs"
+            android:label="Detail Biodata"
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:label="Detail Informasi"
+            android:name="com.example.siaka_akpar_makassar.Act_detail_informasi"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.siaka_akpar_makassar.Act_home"
+            android:screenOrientation="portrait">
+        </activity> 
+        <activity android:name="com.example.siaka_akpar_makassar.Act_set_get"/>
+    </application>
+
+</manifest>
